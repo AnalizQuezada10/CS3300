@@ -1,0 +1,24 @@
+.grid-container{
+    background-color: Blue;
+    height: 100%;
+    grid-template-columns: 20%,20%,20%,20%.20%;
+    grid-row: 20%;
+    line-height: 20%;
+    columns: 20%;
+    
+
+}
+.grid-container{
+ display:grid;
+background-color:green;
+height: 100%;
+ grid-template-rows: 20%,20%,20%,20%.20%;
+    line-height: 20%;
+    columns: 20%;
+    height: 100%
+    
+} 
+.grid-item{
+    text-align: center; 
+    border: 1px solid green; 
+}
