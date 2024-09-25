@@ -1,0 +1,62 @@
+<!DOCTYPE>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Flex Box</title>
+            </head>
+            <body>
+                <style >
+                    .flex-container{
+                        display:flex;
+                        
+                        flex-direction: column;
+                    }
+                    .flex-item{
+                        width: 100px;
+                        height:100px;
+    
+                    }
+
+                    .item-one{
+                        background-color: #EF0107;
+                    }
+                    .item-two{
+                        background-color:#0000ff;
+                    }
+                    .item-three{
+                        background-color: #008000; 
+                    }
+                    @media screen and (min-width: 500px) {
+                        div{ color: red;
+                        }
+
+
+
+                        @media screen and(min-width: 700px) {
+                            div{ 
+                                color: blue;
+
+                            }
+                        }
+
+
+                        @media screen and(min-width: 1500px) {
+                            div{ 
+                                color: green;
+
+                            }
+                        }
+
+
+                    }
+                </style>
+                
+            
+                <div class= "flex-container">
+                    <div class="flex-item item-one"></div>
+                    <div class="flex-item item-two"></div>
+                    <div class="flex-item item-three"></div>
+                </div>
+                 </body> 
+                </html>
+                
