@@ -1,0 +1,13 @@
+﻿CISC 3300 FALLl24 
+Homework 2 
+1. Create a html file containing a logo of a fictitious business styled with a fancy font, background and foreground colors, and an image. 
+a. use a font from https://fonts.google.com/ 
+2. Create a html file with a flex container and three flex items. Give the flex items a color and width/height of 100px. For screens <500px wide have the items flow vertically and >= 500px flow horizontally. 
+3. Compare and contrast Flexbox and CSS grid, how are they alike and how are they different?
+Flexbox is different from the CSS  grid because flexbox assigns the values to the items in the CSS grid. A flex box is one dimensional in layout. While CSS grids have rows and columns. 
+
+4. Create an html file with bootstrap 4 included via a cdn link(there is an example in the lecture code). Access the nav bar component documentation at 
+https://getbootstrap.com/docs/4.1/components/navbar/. Copy the html code of one of the types of navbars listed on the documentation, it should be wrapped in a nav element. Copy and paste the html code into your page and replace the “Navbar” content with your name, it should be in an anchor tag with the “navbar-brand” class. 
+5. You are the web designer for the Computer Science Department at Fordham. You have been asked to design this mock up for the CS homepage. 
+https://www.fordham.edu/undergraduate-admission/majors-and-minors/computer-scienc e/ 
+a. Try to get as close as possible to the mock up, with colors and the font(Raleway), etc. It does not need to be pixel perfect. The image can be accessed here: https://www.fordham.edu/media/review/content-assets/migrated/images/iStock_0 00021097427Medium.jpg
