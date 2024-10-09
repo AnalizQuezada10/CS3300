@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <link rel="stylesheet" href="questionsix.js">
+</head>
+    <meta charste="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    li{
+        cursor: pointer;
+        margin: 50px;
+    }
+       </style>
+       </head>
+       <body>
+        <h1> Click on a Item on the List</h1>
+        <ul id="MyList">
+            <li>Item #1</li>
+            <li>Item #2</li>
+            <li>Item #3</li>
+            <li>Item #4</li>
+            <li>Item #5</li>
+        </ul>
+        <script>
+            const listItems = document.querySelectorAll('#MyList li');
+            console.log(listItems)
+            listItems.forEach(item => {
+                console.log(listItems)
+                item.addEventListener('click', function() {
+                    console.log('here')
+                    listItems.forEach(li => li.style.color = 'blue');
+                })
+                // item.addEventListner('click' , () => {
+                //     console.log('test')
+                //     listItems.forEach(li => style.color = 'Blue');
+
+                // });
+            });
+
+            </script>
+       </body>
+       </html>
+
+    

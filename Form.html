@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Validation Form</title>
+        <style>
+            .message{
+                margin-top: 100px; 
+                padding: 10px;
+                color: white;
+                display: none;
+                }
+                .error {
+                    background-color: red;
+                }
+                .success{
+                    background-color: blue;
+                }
+                </style>
+        </head>
+        <body>
+
+            <form id="TheForm">
+            <label for="inputField">Enter Text:</label>
+            <input type="Text" id="inputField">
+            <button type="submit">Submit</button>
+            </form>
+            <div id="message" class="message"></div>
+
+
+            <script>
+                document.getElementById("TheForm").addEventListener("submit" , function(event) {
+                    event.preventDefault(); //Stop default form submissions
+
+                    const inputValue = document.getElementById("inputField").value;
+                    const messageDiv = document.getElementById("message");
+
+                    messageDiv.style.display ='None';
+                    messageDiv.classList.remove("error", "Success");
+
+                    //Check if the input is empty
+                    if(inputValue.trim() === "") {
+                        messageDiv.textContent ="Input a Value";
+                        messageDiv.classList.add("error");
+                        messageDiv.style.display = "block";
+                    }else{
+                        messageDiv.textContent ="Success";
+                        messageDiv.classList.add("success");
+                        messageDiv.style.display = "block"
+                        console.log(inputValue);
+
+
+
+                    }
+                    });
+
+               
+            </script>
+        </body>
+
+                
+            
+            
+        </style>
+</html>
