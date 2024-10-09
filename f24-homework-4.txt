@@ -1,0 +1,29 @@
+﻿CISC 3300 SP24 
+Homework 4 
+1. What is the DOM? What is meant by the DOM tree? 
+DOM is Document Object Model. It is a programming interface that allows programmers to access HTML and XML documents. A Document Object Model tree is a hierarchical representation of HTML or an XML document’s structure in memory. 
+
+
+2. What is an XSS attack? How do they work? How can you guard against them? 
+An XSS attack is an executed malicious code that majorly works on trusted websites.  It works when a hacker creates a code into a trusted website. Then the code is executed when a user enters the website and the hacker steals sensitive information. 
+
+
+3. What is an event in JavaScript? 
+An event in Javascript is an action or occurrence in the browser. 
+
+
+4. How does a DOM eventListener work? What are the parameters it is expecting? 
+A DOM eventListener works when a mechanism in JavaScript allows you to detect and respond to user interactions. It first triggers an event that contains information about the event that it is going to trigger through the event object The parameter that it is expecting is addEventListener(event, listener [click,keydown, submit]); 
+
+
+5. What is jQuery? Why use it? How do we load jQuery onto a page? 
+jQuery is a Javascript file that a person includes in web pages. We use it because it lets you find elements using CSS style selectors and then do something with the element using jQuery methods and because it makes coding  simpler and it does common tasks in less code. We load jQuery onto a page by linking to a CDN(Content Delivery Network) or by hosting the jQuery file onto your local server.  
+
+
+6. Create an html page with html, body elements. And create a js file or script tag. Add an unordered list element which contains several list item elements, if any list item is clicked, change all list items color to blue. 
+
+
+7. Create a second unordered list element with an id of “cats-list”. Using the cats array found here: https://github.com/cisc3300/f24-lecture-code/blob/main/9-25-lecture/cats.js iterate on the cats array and for each cat add a list item element with cat’s name as the content of the list item element. 
+8. Create a form element with a label, input, and button elements. The form should accept text and have a button to submit. When the form is submitted, stop the default behavior and console.log the value of the input. 
+9. On submission of the form, if the input value is empty, remove any previous error or success messages and show an error message with the text “Please Provide a Value” below the form. Set the background color of the error message to red. 
+10. On submission of the form, if the input value is not empty, remove any previous error or success messages and show a success message with the text “Success” below the form. Set the background color of the success message to green.
