@@ -1,0 +1,26 @@
+﻿CISC 3300 F24 
+In class assignment 6 
+1. AJAX allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. 
+2. HTTP is a protocol for sending data between clients and servers over the internet. 3. REST is not a protocol or a standard, but an architectural style of organizing our code so that requests act upon resources in a standardized way. 
+4. JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays. 
+5. An application programming interface is a way for two or more computer programs or components to communicate with each other. 
+6. Each time a script enters a new execution context, variables, functions, arguments are created, this is called hoisting. 
+7. Closures are the ability of a function to remember the variables and functions that are declared in its outer scope. 
+8. Create a file called recipes.json 
+a. Write some json to create an array of objects called recipes, each object should have a title, a description, and an id(which should be an int). 
+b. You can validate that it is in the correct format with: https://jsonformatter.org/ using the validate option. 
+9. We are going to install and use a simple local web server. 
+a. Install node: 
+i. mac: brew install node 
+ii. windows: 
+https://www.geeksforgeeks.org/installation-of-node-js-on-windows/ after it is installed you might need to restart your gitbash program. 
+b. Install json-server https://www.npmjs.com/package/json-server, in a command line run “npm install json-server -g”, the -g flag to install it globally (npm is included with node). 
+c. Run the json-server command in the directory that contains the recipes.json, “npx json-server recipes.json”. This will start up the local web server (it should choose http://localhost:3000 by default) and allow it to listen for requests. 
+i. npx is a command used for executing command-line tools that are part of a package, in our case we are sending an instruction to the json-server 
+package. 
+ii. Look at the documentation here: https://github.com/typicode/json-server. Our recipes should be available at http://localhost:3000/recipes. 
+iii. Include a picture of the output of accessing http://localhost:3000/recipes in a browser. Use command + shift + 4 to take a screen grab on a mac 
+and use the snipping tool on windows. 
+10. Now let’s write a GET request with jQuery to fetch our recipes.
+a. create an html page with a jQuery cdn link 
+b. use the $.get or $.ajax jQuery functions to send a GET request to http://localhost:3000/recipes and console.log the response.
