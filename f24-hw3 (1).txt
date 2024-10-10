@@ -1,0 +1,24 @@
+﻿CISC 3300 SP24 
+Homework 3 
+1. What is javascript? How does an interpreted programming language differ from a compiled language? 
+Javascript is a programming language that makes web pages interactive and more functional. An interpreted programming language differs from a compiled language because a programming language refers to a certain set of rules and a compiled language requires code to be translated into machine code through a compiler. 
+
+
+2. Contrast dynamically typed programming languages with statically typed ones. And contrast strongly typed programming languages with weakly typed ones. (google these) 3. What is the difference between var, let, and const when declaring variables in JS? 4. What are anonymous functions? Higher order functions? Callback functions? First class functions? 
+
+
+The difference between var, let and const when declaring variables in Javascript is that var defines a variable. Let declares variables. Const creates a constant variable. Anonymous function is a function that is declared without a name. Higher Order functions are functions that can decipher other functions as arguments(Pass a function as a parameter to another function) and return a function as results. Callback functions are functions that can be called to use in other functions and executed after the completion of some operation or event. First class functions are functions that can be treated like any other variable.
+
+
+5. Define objects in JavaScript. 
+
+
+You can define objects in JavaScript by Object literal {}, Constructor Function, Object Create or class Syntax. You need to define an object in JavaScript when you need to group related data. 
+6. Loop through the cats array found here: 
+https://github.com/cisc3300/f24-lecture-code/blob/main/9-25-lecture/cats.js a. if the cats adoption status is available add that cat’s name to a result array b. create a new sentence about your newly adopted cats from your result array via the join array function. 
+7. Create a variable that sets a value via a ternary operator. Use Math.random() * 10, which will output a random number from 1 to 10, to set the variable’s value as a string of “greater than five!” if the output from Math.random() * 10 is greater than 5, and “less than five!” if the output is less than 5. 
+8. Loop through the values of the cat object found here: 
+https://github.com/cisc3300/f24-lecture-code/blob/main/9-25-lecture/cats.js. Console.log the value of each property in the loop. 
+9. Write two if statements, pick the correct comparison operator to have the first if statement equate an integer of 1 and a string of ‘1’ as true. And pick the correct comparison operator to have the second equate an integer of 1 and a string of ‘1’ as false. 
+10. Using the map function create a new array via the cats array used in question 6. Pass the map function a callback function that accepts each element of the array as a parameter. Return the value of the name property of each object in the cats array concatenated with the string “ is cute!”. The output should be an array of “Charlie is cute!”, “Lily is cute!”, etc. 
+Include questions 6-10 in a single JavaScript file or HTML file via a script tag.
