@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Recipe NYC Weather and Manager </title>
+        <link rel="stylesheet" href="airstyles.css">
+
+    </head>
+    <body>
+      <div class="container">
+        <h1>NYC Weather</h1>
+        <p id="temperature">Loading...</p>
+      </div>  
+      <div id="recipes">
+        <h2>Recipes: </h2>
+        <ul id="recipe-list"></ul>
+
+      </div>
+      <div id="recipes-form">
+        <h2> New Recipe</h2>
+        <form id="new-recipes-form">
+          <input type="text" id="name" placeholder="recpies name" required>
+          <input type="text" id="ingredients" required>
+          <button type="submit">Add the Recipe</button>
+        </form>
+      </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="script.js"></script>
+      <div id="recipe-form"></div>
+    </body>
+</html>

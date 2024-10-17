@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color:#333;
+    padding: 20px;
+}
+
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+}
+h1,h2 {
+    text-align: center;
+    color:#333;
+}
+
+
+#weather {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+#recipes-list{
+    list-style: none;
+    padding: 0;
+}
+#new-recipe-forms input {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+#new-recipe-forms button{
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: rgba(255, 255, 255, 0.164);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#new recipe-forms buttons:hover {
+    background-color: #555;
+}
