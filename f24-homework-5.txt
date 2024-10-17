@@ -1,0 +1,19 @@
+﻿CISC 3300 F24 
+Homework 5 
+1. What is HTTP? What are the different HTTP request methods and how do they differ? 
+HTTP is a protocol used for fetching resorces such as HTML documents or JSON data. 
+2. What is an API? What is JSON? 
+An API (Application Programming Interface) is a set of rules that permits one software application to interact with another software application. An API also defines the methods and data formats that these software applications can utilize to communicate. JSON is alightweight data interchange format that facilitates the wat that humans read and write and facilitates how machines generate. It is utilized to transmit data between a server and a web application. 
+3. What is AJAX? What is meant by asynchronous code? 
+AJAX permits web pages to be updated asynchronously by exchanging data with a web server. Asynchronous code is when a web page is updated without reloading the whole entire page. 
+4. What is REST and what are resources? If my application had a concept called posts and was designed in a RESTful way, what would the URI and HTTP request method be to: a. retrieve multiple posts 
+REST(Representative State Transfer) is an architectual style for designing a network application. It relies on client-server communication. 
+b. retrieve a single post 
+c. save a post 
+d. update a post 
+5. Define hoisting and closures in JS. 
+Hoisting is Javascripts behavior of moving declarations to the top of their containig scope that is either a global or function scope. The declarations only need to be variable names and function declarations. Closure in Javascript are functions that can remmber and access variables from the outer lexical scope even when the outer function has completed its execution. This allows the data to persist across multiple function codes. 
+6. Create a webpage that displays the current air temperature at 2 meters above ground, for NYC, in fahrenheit, via a request to https://open-meteo.com/. 
+7. Let’s use use jquery AJAX functions and our json server and recipes from in-class 6 to make a tiny application: 
+a. Show the recipes on a webpage page when it loads(don’t show the id property). b. Add a form to create new recipes, after it has saved the page should update with the new recipes. 
+i. The json-server package needs incoming JSON data to be stringified. c. Add some styling to make this look somewhat presentable.
