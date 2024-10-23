@@ -1,0 +1,30 @@
+﻿CISC 3300 F24 
+In class assignment 8 
+1. Classes are templates for creating objects. 
+2. The visibility of a property, a method or a constant can be defined by prefixing the declaration with the keywords public, protected or private. 
+3. When a class derives from another class is called inheritance 
+4. Namespace allows the PHP interpreter to tell the difference between two classes, functions, or constants that share the same name. 
+5. Several predefined variables in PHP are superglobals, which means they are available in all scopes throughout a script. 
+6. Functions can be called directly, from within a script, to perform a specific task. 7. The header function sends a raw HTTP header to a client. 
+8. ,MVC(Model Vue Console) is an architectural/design pattern that separates an application into three main logical components Model, View, and Controller. 
+9. Packages allow developers to use code that they, or other programmers, have already written to perform a task. 
+10. Make a PHP project called in-class-8 with an index.php file and add an .htaccess file from the lecture code. Make in-class-8 the root directory of your dev environment. a. create a subdirectory called controllers and a subdirectory called models. b. in the controllers directory make a class called UserController 
+i. give it a namespace(controllers) 
+ii. create a method called index 
+c. in the models directory make a class called User 
+i. give it a namespace(models) 
+ii. create a method called getAllUsers 
+1. from that method return an an array of associative arrays , each 
+with an id property (1,2,3) and name property (fill them with names 
+of whatever) 
+d. in the UserController class 
+i. in the index method instantiate a user object using the User class from models 
+1. do this by using the use keyword to reference the User class in the 
+model directory “use models\User”; this should be right under the 
+namespace declaration for controllers; 
+2. after instantiating a User object, var_dump the output of calling the 
+getAllUsers method 
+e. in the index file: 
+i. reference the controllers\UserController; namespace and instantiate an object of the UserController class, call the index method 
+ii. make sure to require your classes in the correct order, remember we need to have already required any code that we are trying to make use of in a file before we require that file. You should see the contents of the 
+users associative array at the local host url.
