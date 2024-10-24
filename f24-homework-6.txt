@@ -1,0 +1,31 @@
+﻿CISC 3300 F24 
+Homework 6 
+1. What is PHP? What do server side languages do in web development? 2. What are some examples of how PHP and JavaScript are alike and how they differ? 3. Why pick PHP over another server side scripting language? 
+PHP is a scripting language that is utilized to create a dynamic web page. Server side languages allow websites to restrict access to authorized users and serve only the information that a user is permitted to see. Some examples of how PHP and Javascript are alike because both are scripting languages, both languages are used in web programming, both languages support Object Oriented Programming, both languages work with databases. The reason for picking PHP over another server side language is because PHP has a built in purpose for web and it has built in web functionalities. Some examples of how PHP and Javascript are different because PHP is a server side language that runs on the web server and sends output (HTML and JSON) to the client. It is executed when a request is made to the server. Meanwhile, Javascript runs on the client side. It handles user interaction, manipulates the Document Object Model and provides a dynamic user experience. 
+
+
+4. What’s the difference between the include and require keywords in PHP? a. What would happen if you tried to use a variable from a file that hasn’t been included yet? 
+
+
+The difference between the keyword include and require in PHP are utilized to insert the content. Include is used when a specific file cannot be found and the script will proceed to be executed. The keyword require is used when a file cannot be found and a fatal error is triggered causing the script to stop the execution. If I tried to utilize a file that hasn’t been included yet the script will send a warning or the program will stop executing. 
+
+
+5. Compare and contrast echo and var_dump. 
+Echo and var_dump are both utilized to output data. Echo is different because it outputs simple strings or variables. 
+6. Create a new PHP project called homework-6 and change your MAMP/XAMPP root directory to it. In the homework-6 directory create a file called question6.php. In question6.php file create: 
+a. An associative array with keys and values. 
+b. Loop through the array and echo out a string that contains each key and value. c. Remember we can access this file directly via our server by 
+localhost:port/question6.php 
+7. Add to question6.php: 
+a. Create a function that has: 
+i. a set return type 
+ii. an optional parameter 
+iii. a typed parameter 
+iv. and call your function with correct values 
+8. Create an index.php file and a requireMe.php file. In requireMe.php create a variable called requiredVariable that contains a string value. Require the requireMe.php file in the index.php file and echo the requiredVariable in in the index.php file. 
+9. Create a file called api.php, in it create another associative array with keys and values(or copy your one from question 6), echo the array as json data. 
+10. In the homework-6 directory: 
+a. create a directory called views in the homework-6 directory and add to it an image file and an html file called homework-6.html. 
+b. What would the src attribute value be to access the image relatively from the html file? 
+c. Require the homework-6.html from index.php and load the page. The image should not work. Fix the relative pathing in the src attribute in the 
+homework-6.html file so that the image loads(remember what require actually does!).
