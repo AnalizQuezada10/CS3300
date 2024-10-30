@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title> User</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .user {
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin: 10px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Users Lists</h1>
+        <div id="userList"></div>
+
+        <script>
+            fetch('/users')
+            .then(response => response.json())
+            .then(data => {
+                const userList = document.getElementById('userList');
+                data.forEach(user => {
+                    const userDiv = document.createElement('div');
+                    userDiv.className = 'user';
+                    userDiv.textContent = 'Name: ${user.name}, Email:{user.email}';
+                    userList.appendChild(userDiv);
+                });
+            })
+            .catch(error => console.error('Error fetching the users:', error));
+
+                
+        </script>
+    </body>
+</html>

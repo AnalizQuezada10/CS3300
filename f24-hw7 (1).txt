@@ -1,0 +1,38 @@
+﻿CISC 3300 F24
+Homework 7 
+1. What is a class?
+A class is a definition of properties and methods of a particular type of object.  
+What is an object?
+ An object in PHP are instances of a class that is utilized as a blueprint for creating objects that contain specific properties and methods. 
+ What is OOP? 
+OOP (Object-oriented programming) is a style that organizes the code around objects, rather than logic and functions. 
+
+
+2. Why use an abstract class in OOP? 
+Utilizing an abstract class in OOP is important because it is an essential tool for achieving code structure, modularity and polymorphism. 
+
+
+3. What are superglobals in PHP, what are some examples of data they provide?
+Superglobals in PHP are predefined variables that are always accessible, regardless of the scope. Some examples of the data that superglobals provide are $_GET is utilized to collect data sent to the script via URL parameters. $_POST is utilized to collect data sent via HTTP POST. $_COOKIE is utilized to access cookie variables that are sent to a client's browser. 
+
+
+4. What are the two steps to setting up and using a class via namespaces? 
+The two steps to setting up and using a class via namespaces are 
+5. What is MVC? Detail the different parts. 
+MVC (Model View Controller) is a software design pattern that separates an application logic into 3 parts. The first part is data management. The second part is the user interface presentation. The third part is handling user input and communication between the Model and view. 
+
+
+6. Create a class that has: 
+a. a constructor that sets some properties 
+b. getters and setters to set and return those properties 
+7. Add a static method to your class. 
+8. Create a PHP project with an index page and an .htaccess file 
+a. create a user controller class with 2 methods 
+i. one to serve back an html page 
+ii. one to serve back json data 
+b. create a user model class to represent a resource 
+i. in it create a getAllUsers method to respond with an array of associative arrays representing mock user data 
+c. create a views directory with an html page with ajax code to make a request to your backend and display json data as HTML elements, style it to look halfway decent. 
+d. in the index page use the $_SERVER superglobal array to create a conditional statement to handle different types of requests: 
+i. handle a GET request to a /users URI, for that request call your controller method for returning user json data 
+ii. otherwise call your controller method for returning your HTML page e. The finished product should be that when you visit your localhost url for your development environment, your html page should appear with a list of users, fetched from the backend.
