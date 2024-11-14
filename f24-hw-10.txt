@@ -1,0 +1,21 @@
+﻿CISC 3300 F24 
+Homework 10 
+1. What are PDOs? 
+PDOs are a cyberattack that prevented users from accessing servers that can cause permanent damage to a hardware device. We instalate PDO objects with a DSN string that represent the connection to our databases. PDO attacks can be Phishing, physical attack and distributed attacks by using infected USB that attacks the hardware. 
+ What is a DSN? 
+DSN (Domain Server Name) 
+2. What are .env files? 
+A .env file is a file containing environment variables. 
+What are .gitignore files? 
+A .gitignore file is a text file that tells Git which files to ignore in a project. The file is placed in a root directory of a project. 
+3. Should you ever upload passwords of any kind to github? 
+No, you should not upload any kind of passwords to Github. This is to prevent a malicious attack or spreading sensitive information. 
+4. What is SQL injection? 
+A SQL injection is when a hacker tries to run malicious sql code into a database. An SQL injector can read and change any data on a database. 
+5. What are prepared statements? 
+A prepared statement in SQL is a feature that is utilized to execute the same SQL statement repeatedly
+How can we pass variables to a prepared statement? 
+We can pass variables to a prepared statement by using setString() to set a variable. 
+6. Fork the repository found here: https://github.com/cisc3300/homework-10 a. Create new functionality for a Posts resource, the functionality should be very similar to the Users resource 
+b. There should be a working front end akin to the users functionality: pages to view all posts, add a new post, edit a post, delete a post. As well has the necessary Controller and Model classes, and routing in the index file. 
+c. This will include creating a posts table in order to save and query data. In the submission include a .sql file with the statement you used to create the posts table.
